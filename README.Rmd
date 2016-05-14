@@ -1,0 +1,14 @@
+---
+title: "Developing Data Products Course Project"
+author: "Dmitry Lishmanov"
+date: 'May 14, 2016'
+output: html_document
+---
+
+## Introduction
+
+This peer assessed assignment has two parts. First is a Shiny application, second is a reproducible pitch presentation about this application.
+
+## Shiny Application
+
+## Reproducible Pitch Presentation
