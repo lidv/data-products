@@ -1,9 +1,42 @@
-# Course Project "Developing Data Products Course Project"
+---
+output: html_document
+---
+# Developing Data Products Course Project
 
-## Introduction
+This course project consists of two parts: first is a shiny application, second is a reproducible pitch presentation about this application.
 
-This peer assessed assignment has two parts. First is a Shiny application, second is a reproducible pitch presentation about this application.
+## Shiny Application: Film fund "Moscow cinema" Dataset Explorer
 
-## Shiny Application
+Shiny application available [here]()
+
+This application is based on the dataset ["Moscow cinema" Film Archive](http://data.mos.ru/opendata/export/2209/json) which provides a representative database selection of various genre films of GBUK of Moscow city "Moscow cinema" Film Archive.
+
+Detailed dataset description could be found [here](http://data.mos.ru/opendata/7719028495-film-fund-moscow-cinema/description?versionNumber=1&releaseNumber=1). Copy of this description also can be seen below in this document.
 
 ## Reproducible Pitch Presentation
+
+Reproducible Pitch Presentation available [here]()
+
+## DataSet Description
+
+### Film fund "Moscow cinema"
+The dataset "Moscow cinema" Film Archive provides a representative database selection of various genre films of GBUK of Moscow city "Moscow cinema" Film Archive.
+GBUK of Moscow city "Moscow cinema" keeps and maintains the public film archive, which is called "The Moscow Cinematheque", and contains more than 10 thousand films. The Archive originates from the Movie Rental Agency, founded in 1934 in order to centralize the supplying of movie theatres with film prints.
+The uniqueness of the collection is that it has been formed gradually, being not a merely museum collection, but rather having a practical meaning and function – it is constantly used for various movie shows. "Moscow Cinematheque" keeps prints of different genre and footage films, which allows the holding of retrospective shows, and shows varying in theme and length. These are feature films, documentaries, animated films of Russian and foreign production. "Moscow Cinematheque" fulfills an important public educational function through carrying out works in three areas:
+ 
+1. Social city programs (festivals, theme shows, charity events);
+2. The promotion of domestic films (general releases, great opening nights);
+3. Cinema Club screening (educational and cinematheque activities).
+ 
+### The current situation in Russia:
+Cinematheques, based on current film archives, are an extremely rare phenomenon In Russia. The main obstacles to creating such a collections is a lack of specially equipped storage facilities, difficulties in obtaining the rights for broadcasting from film production studios, as well as the refusal of producers from printing movies on a in 35mm film, which makes impossible formation of new such archives in the modern context.
+However, in Russia there are several film collections: FGBUK "Gosfilmofond of the Russian Federation", Russian State archive of cinema and photo records in Krasnogorsk and a few minor movie archives in major cities of Russia.
+ 
+### The current situation in Moscow:
+In Moscow there are no archives similar in variety and volume to " Moscow Cinematheque".
+Currently based on Central Studio of documentary films (CSDF), there operates Russian Central film and video studio of documentaries, topical and educational films (RCSDF), which is located in Moscow. It is a member of the International Association of documentary films.
+ 
+### Did you know that..?
+1. The biggest and heaviest copy in the collection of Moscow Cinematheque is a full copy of "Osvobozhdenie" film (1968, directed by Yurij Ozerov, "Mosfilm" movie studio production). Its weight is 104 kg, and the duration of the show is 8 hours and 5 minutes!
+2. The rarest film of the collection is "The Heat" (1962, directed by Larisa Shepitko, "Kirgizfilm" movie studio production). Actually, it's not presented in Gosfilmofond!
+3. Utilization of worn-out black-and-white films is performed in a special way, which is considered to be similar to the utilization of non-ferrous metals, due to the fact, that 1000 m of film contain 230 g of silver. The film must not be disposed of together with other waste.
