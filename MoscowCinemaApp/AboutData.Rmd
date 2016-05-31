@@ -1,23 +1,11 @@
 ---
 output: html_document
 ---
-# Developing Data Products Course Project
-
-This course project consists of two parts: first is a shiny application, second is a reproducible pitch presentation about this application.
-
-## Shiny Application: Film fund "Moscow cinema" Dataset Explorer
-
-Shiny application is available [here](https://lidv.shinyapps.io/MoscowCinemaApp/)
+## DataSet Description
 
 This application is based on the dataset ["Moscow cinema" Film Archive](http://data.mos.ru/opendata/export/2209/json) which provides a representative database selection of various genre films of GBUK of Moscow city "Moscow cinema" Film Archive.
 
 Detailed dataset description could be found [here](http://data.mos.ru/opendata/7719028495-film-fund-moscow-cinema/description?versionNumber=1&releaseNumber=1). Copy of this description also can be seen below in this document.
-
-## Reproducible Pitch Presentation
-
-Reproducible Pitch Presentation available [here](http://rpubs.com/lidv2/data-products-presentation)
-
-## DataSet Description
 
 ### Film fund "Moscow cinema"
 The dataset "Moscow cinema" Film Archive provides a representative database selection of various genre films of GBUK of Moscow city "Moscow cinema" Film Archive.

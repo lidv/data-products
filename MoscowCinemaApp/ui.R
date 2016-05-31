@@ -1,5 +1,6 @@
 library(shiny)
-library(ggvis)
+library(rCharts)
+require(markdown)
 
 
 shinyUI(
@@ -18,6 +19,6 @@ shinyUI(
       )
     ),
     tabPanel('Data',mainPanel(dataTableOutput(outputId="data"),downloadButton('downloadData', 'Download'))),
-    tabPanel("About",mainPanel(includeMarkdown("../README.Rmd")))
+    tabPanel("About",mainPanel(includeMarkdown("AboutData.Rmd")))
   )
 )

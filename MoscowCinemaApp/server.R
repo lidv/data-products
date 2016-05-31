@@ -1,17 +1,11 @@
-#
-# This is the server logic of a Shiny web application. You can run the 
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 library(jsonlite)
 library(rCharts)
+library(dplyr)
 
-films <- fromJSON("../data/films.json")[["Cells"]]
+Sys.setlocale(locale = "en_US")
+
+films <- fromJSON("data/films.json")[["Cells"]]
 films$Filmino_en[lapply(films$Filmino_en,length)==0] = "undefined"
 
 countries <<- sort(unique(unlist(films$ProducingCountry_en)))
@@ -41,12 +35,6 @@ shinyServer(function(input, output) {
     }
   })
   
-  output$studio <- renderUI({
-    if(1) {
-      selectInput("studio","Producing Studio",studios,selected = "All")
-    }
-  })
-
   output$filmsByYears <- renderChart({
     df <- dt()
     df <- aggregate(df$global_id, by=list(df$Year_en, df$FilmType_en), FUN = length)
